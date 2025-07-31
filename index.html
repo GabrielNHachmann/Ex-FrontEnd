@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ExercicioUm</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <style>
     h1 {
     color: purple;
@@ -18,10 +20,26 @@
         color:dimgrey;
     }
 </style>
+
+<script>
+    function numeros(){
+        for(let index = 0; index < 11; index++){
+            console.log(index);
+        }
+        return null;
+    }
+
+    numeros();
+</script>
+
+<script src="script.js"></script>
+
 <body>
     <h1>Meu site</h1>
     <h2 id="meuid">Seja bem-vindo</h2>
     <h3 class="minhaclasse">Descrição</h3>
-    <p>Olá senhores estou realizando meu exercicio de frontend</p>
+    <p class="minha-cor">Olá senhores estou realizando meu exercicio de frontend</p>
+
+    <button onclick="clicar()">Clique aq</button>
 </body>
 </html>
